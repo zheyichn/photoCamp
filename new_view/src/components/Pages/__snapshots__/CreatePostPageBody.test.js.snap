@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePostPageBody Component Create post page body renders correctly 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container css-1i94w6s-MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item css-mfinn7-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container css-pe8ahj-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-item css-s0d7oz-MuiGrid-root"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-qno4q7-MuiTypography-root"
+          data-testid="create-header"
+        >
+          Create a new post
+        </p>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardInfo MuiAlert-standard css-12mvehg-MuiPaper-root-MuiAlert-root"
+        role="alert"
+      >
+        <div
+          className="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+            data-testid="InfoOutlinedIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20, 12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10, 10 0 0,0 12,2M11,17H13V11H11V17Z"
+            />
+          </svg>
+        </div>
+        <div
+          className="MuiAlert-message css-1pxa9xg-MuiAlert-message"
+        >
+          Select a video or picture from your computer below
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-item css-ebnu8t-MuiGrid-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-hwg4b5-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-5.5 css-1atl2t1-MuiGrid-root"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-5jyhtf-MuiSvgIcon-root"
+                data-testid="SwitchVideoOutlinedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M8 13h4v2l3-3-3-3v2H8V9l-3 3 3 3zm10-3.5V6c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v12c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-3.5l4 4v-13l-4 4zM16 17H4V7h12v10z"
+                />
+              </svg>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <input
+                accept=".mov,.mp4"
+                className="VideoInput_input"
+                label="Choose a video"
+                type="file"
+              />
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-m4daxv-MuiGrid-root"
+          >
+            <video
+              autoPlay={true}
+              className="MuiCardMedia-root MuiCardMedia-media css-e6k82g-MuiCardMedia-root"
+              loop={true}
+              muted={true}
+              src="https://upload.wikimedia.org/wikipedia/commons/f/ff/360_SKIING_MAY_2019.webm"
+              title="Test Video"
+            />
+          </div>
+        </div>
+        <div
+          className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-hwg4b5-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-5.5 css-179kufd-MuiGrid-root"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-bewhuv-MuiSvgIcon-root"
+                data-testid="PhotoSizeSelectActualOutlinedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21 3H3C2 3 1 4 1 5v14c0 1.1.9 2 2 2h18c1 0 2-1 2-2V5c0-1-1-2-2-2zm0 15.92c-.02.03-.06.06-.08.08H3V5.08L3.08 5h17.83c.03.02.06.06.08.08v13.84zm-10-3.41L8.5 12.5 5 17h14l-4.5-6z"
+                />
+              </svg>
+            </div>
+            <div
+              className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+            >
+              <input
+                accept=".jpg,.jpeg,.png"
+                className="Picture_input"
+                type="file"
+              />
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-1hvywgf-MuiGrid-root"
+          >
+            <img
+              alt="Sea View"
+              className="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+              height="70%"
+              src="https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              title="Test Picture"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

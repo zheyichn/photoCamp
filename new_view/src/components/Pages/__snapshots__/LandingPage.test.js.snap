@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page Page renders correctly 1`] = `
+[
+  <div>
+    <div
+      className="MuiGrid-root css-b5hrgx-MuiGrid-root"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container css-1q1yn3m-MuiGrid-root"
+          style={
+            {
+              "backgroundColor": "white",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item css-l2wqce-MuiGrid-root"
+            style={
+              {
+                "backgroundColor": "white",
+              }
+            }
+          >
+            <div
+              className="MuiTypography-root MuiTypography-h6 css-1qvm0tf-MuiTypography-root"
+            >
+              PhotoCamp
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-fdtuls-MuiGrid-root"
+    style={
+      {
+        "gap": "20px",
+        "minHeight": "100vh",
+      }
+    }
+  >
+    <div
+      className="MuiBox-root css-jskp5d"
+    >
+      <span
+        className="MuiBox-root css-1a5zk3b"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-uckjdc-MuiTypography-root"
+        >
+          PhotoCamp Best Video 2022
+        </p>
+      </span>
+      <video
+        autoPlay={true}
+        className="MuiCardMedia-root MuiCardMedia-media css-e6k82g-MuiCardMedia-root"
+        height="250"
+        loop={true}
+        muted={true}
+        src="https://upload.wikimedia.org/wikipedia/commons/f/ff/360_SKIING_MAY_2019.webm"
+        title="Test Video"
+        width="500"
+      />
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-container css-1yxg654-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-7krtbn-MuiGrid-root"
+      >
+        <div
+          className="MuiBox-root css-1pdo0d4"
+        >
+          <div
+            className="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+          >
+            <label
+              className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined css-13tblej-MuiFormLabel-root-MuiInputLabel-root"
+              data-shrink={false}
+              htmlFor=":r0:"
+              id=":r0:-label"
+            >
+              Username:
+            </label>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-175sm4b-MuiInputBase-root-MuiOutlinedInput-root"
+              onClick={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                autoComplete="off"
+                autoFocus={false}
+                className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+                disabled={false}
+                id=":r0:"
+                name="Username:"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="text"
+              />
+              <fieldset
+                aria-hidden={true}
+                className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  className="css-yjsfm1"
+                >
+                  <span>
+                    Username:
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <div
+            className="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+          >
+            <label
+              className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-outlined css-13tblej-MuiFormLabel-root-MuiInputLabel-root"
+              data-shrink={false}
+              htmlFor=":r1:"
+              id=":r1:-label"
+            >
+              Password:
+            </label>
+            <div
+              className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall css-175sm4b-MuiInputBase-root-MuiOutlinedInput-root"
+              onClick={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                autoComplete="off"
+                autoFocus={false}
+                className="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+                disabled={false}
+                id=":r1:"
+                name="Password:"
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                required={false}
+                type="text"
+              />
+              <fieldset
+                aria-hidden={true}
+                className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  className="css-yjsfm1"
+                >
+                  <span>
+                    Password:
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-59kyrf-MuiButtonBase-root-MuiButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            Sign In
+          </button>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-uckjdc-MuiTypography-root"
+            style={
+              {
+                "fontSize": 12,
+              }
+            }
+          >
+            <a
+              className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1ps4owl-MuiTypography-root-MuiLink-root"
+              href="/forgotpassword"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              Forgot Password?
+            </a>
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1mse95p-MuiGrid-root"
+        style={
+          {
+            "height": "150px",
+          }
+        }
+      >
+        <div
+          className="MuiBox-root css-1vcrsgd"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall css-1lk5wtx-MuiButtonBase-root-MuiButton-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <a
+              className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-rmjmia-MuiTypography-root-MuiLink-root"
+              href="/CreateNewAccount"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              Create
+              <br />
+              New Account
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiBox-root css-73nay0"
+    />
+  </div>,
+]
+`;

@@ -1,0 +1,28 @@
+{
+  "name": "project---design-hw1-group15",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.17.0",
+    "npm": "8.15.0"
+  },
+  "description": "Photo&amp;Video-sharing Social Network APP -  Implementation (Backend) & API Testing (HW4)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"cd server && npm install && cd .. && cd new_view && npm install && npm run build",
+    "start": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cis557/project---design-hw1-group15.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/cis557/project---design-hw1-group15/issues"
+  },
+  "homepage": "https://github.com/cis557/project---design-hw1-group15#readme"
+}

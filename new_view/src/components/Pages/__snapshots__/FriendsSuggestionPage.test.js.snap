@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FriendsSuggestionPage Page renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      className="MuiGrid-root css-54nrqh-MuiGrid-root"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container css-1xzqqmo-MuiGrid-root"
+          style={
+            {
+              "backgroundColor": "white",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item css-fom513-MuiGrid-root"
+            style={
+              {
+                "backgroundColor": "white",
+              }
+            }
+          >
+            <div
+              className="MuiTypography-root MuiTypography-h6 css-fd7qc2-MuiTypography-root"
+            >
+              PhotoCamp
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1>
+    Suggested Friends
+  </h1>
+  <div
+    className="friend-list"
+  >
+    <div />
+  </div>
+  ;
+</div>
+`;

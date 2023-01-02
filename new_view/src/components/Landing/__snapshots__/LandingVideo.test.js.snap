@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Video Page renders correctly 1`] = `
+<div
+  className="MuiBox-root css-jskp5d"
+>
+  <span
+    className="MuiBox-root css-1a5zk3b"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    >
+      PhotoCamp Best Video 2022
+    </p>
+  </span>
+  <video
+    autoPlay={true}
+    className="MuiCardMedia-root MuiCardMedia-media css-e6k82g-MuiCardMedia-root"
+    height="250"
+    loop={true}
+    muted={true}
+    src="https://upload.wikimedia.org/wikipedia/commons/f/ff/360_SKIING_MAY_2019.webm"
+    title="Test Video"
+    width="500"
+  />
+</div>
+`;

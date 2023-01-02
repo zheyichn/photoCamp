@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test friendlist page Create friendlist page body renders correctly 1`] = `
+<div
+  className="friend-list"
+>
+  <div />
+</div>
+`;

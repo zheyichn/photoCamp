@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Write Post Window Component writeNewPostWindow renders correctly 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container css-16xe7vl-MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item css-1gqkjgs-MuiGrid-root"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-17negn9-MuiTypography-root"
+    >
+      Create new post
+    </p>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-item css-17vwq79-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item css-128z6x5-MuiGrid-root"
+    />
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item css-1mum6ye-MuiGrid-root"
+  >
+    <form>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-fullWidth css-sje21u-MuiInputBase-root-MuiInput-root"
+        onClick={[Function]}
+      >
+        <input
+          className="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Input usernames to tag people in photo (separated by space)"
+          rows={3}
+          type="text"
+        />
+      </div>
+    </form>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item css-1mum6ye-MuiGrid-root"
+  >
+    <form>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth css-1s97tdc-MuiInputBase-root-MuiInput-root"
+        onClick={[Function]}
+      >
+        <input
+          className="MuiInputBase-input MuiInput-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder="Write a caption"
+          rows={3}
+          type="text"
+        />
+      </div>
+    </form>
+  </div>
+  <div
+    className="MuiBox-root css-14clurq"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-wuoe3o-MuiButtonBase-root-MuiButton-root"
+      data-testid="share-btn"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[MockFunction]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-qt74zi-MuiTypography-root"
+      >
+        Share
+      </p>
+    </button>
+  </div>
+</div>
+`;

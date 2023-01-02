@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoInput Component VideoInput renders correctly 1`] = `
+<div
+  className="VideoInput"
+>
+  <video
+    className="VideoInput_video"
+    controls={true}
+    height={300}
+    src="https://pixabay.com/videos/grass-dew-field-fog-morning-66810/"
+    width="100%"
+  />
+  <div
+    className="VideoInput_footer"
+    data-testid="video-footer"
+  >
+    https://pixabay.com/videos/grass-dew-field-fog-morning-66810/
+  </div>
+</div>
+`;

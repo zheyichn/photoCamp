@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePage Page renders correctly 1`] = `
+[
+  <div>
+    <div
+      className="MuiGrid-root css-54nrqh-MuiGrid-root"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+      >
+        <div
+          className="MuiGrid-root MuiGrid-container css-1xzqqmo-MuiGrid-root"
+          style={
+            {
+              "backgroundColor": "white",
+            }
+          }
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item css-fom513-MuiGrid-root"
+            style={
+              {
+                "backgroundColor": "white",
+              }
+            }
+          >
+            <div
+              className="MuiTypography-root MuiTypography-h6 css-fd7qc2-MuiTypography-root"
+            >
+              PhotoCamp
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="profile-header"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="profile"
+      >
+        <div
+          className="profile-photo"
+        >
+          <img
+            alt=""
+            src={
+              [
+                "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+              ]
+            }
+          />
+        </div>
+        <div
+          className="profile-user-settings"
+        >
+          <h1
+            className="profile-user-name"
+          />
+          <button
+            className="edit-profile-btn"
+            onClick={[Function]}
+          >
+            Edit Profile
+          </button>
+          <button
+            className="edit-profile-btn"
+            onClick={[Function]}
+          >
+            Change Photo
+          </button>
+          <input
+            hidden={true}
+            id="input-btn"
+            onChange={[Function]}
+            type="file"
+          />
+        </div>
+        <div
+          className="profile-stats"
+        >
+          <ul>
+            <li>
+              <span
+                className="profile-info-follow"
+              >
+                0
+              </span>
+               posts
+            </li>
+            <li>
+              <button
+                className="btn profile-info-follow"
+                onClick={[Function]}
+              >
+                0 followers
+              </button>
+               
+            </li>
+            <li>
+              <button
+                className="btn profile-info-follow"
+                onClick={[Function]}
+              >
+                0 following
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="profile-bio"
+        >
+          <div>
+            <p
+              className="bio"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <main>
+    <div
+      className="MuiBox-root css-0"
+    >
+      <div
+        className="MuiTabs-root css-1ujnqem-MuiTabs-root"
+      >
+        <div
+          className="MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller"
+          onScroll={[Function]}
+          style={
+            {
+              "marginBottom": -0,
+              "overflow": "hidden",
+            }
+          }
+        >
+          <div
+            aria-orientation={null}
+            className="MuiTabs-flexContainer MuiTabs-centered css-1wf8b0h-MuiTabs-flexContainer"
+            onKeyDown={[Function]}
+            role="tablist"
+          >
+            <button
+              aria-selected={true}
+              className="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="tab"
+              tabIndex={0}
+              type="button"
+            >
+              Posts
+              <span
+                className="MuiTabs-indicator css-1aquho2-MuiTabs-indicator"
+                style={{}}
+              />
+            </button>
+            <button
+              aria-selected={false}
+              className="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1h9z7r5-MuiButtonBase-root-MuiTab-root"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="tab"
+              tabIndex={-1}
+              type="button"
+            >
+              Tagged
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="container"
+    >
+      <div
+        className="gallery"
+      >
+        <ul
+          className="MuiImageList-root MuiImageList-standard css-zpxbs6-MuiImageList-root"
+          data-testid="img-list"
+          style={
+            {
+              "gap": 4,
+              "gridTemplateColumns": "repeat(3, 1fr)",
+            }
+          }
+        />
+      </div>
+    </div>
+  </main>,
+]
+`;

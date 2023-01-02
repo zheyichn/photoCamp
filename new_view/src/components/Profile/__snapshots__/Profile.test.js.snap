@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Page renders correctly 1`] = `
+<div
+  className="profile-header"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="profile"
+    >
+      <div
+        className="profile-photo"
+      >
+        <img
+          alt=""
+          src={
+            [
+              "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+            ]
+          }
+        />
+      </div>
+      <div
+        className="profile-user-settings"
+      >
+        <h1
+          className="profile-user-name"
+        />
+        <button
+          className="edit-profile-btn"
+          onClick={[Function]}
+        >
+          Edit Profile
+        </button>
+        <button
+          className="edit-profile-btn"
+          onClick={[Function]}
+        >
+          Change Photo
+        </button>
+        <input
+          hidden={true}
+          id="input-btn"
+          onChange={[Function]}
+          type="file"
+        />
+      </div>
+      <div
+        className="profile-stats"
+      >
+        <ul>
+          <li>
+            <span
+              className="profile-info-follow"
+            >
+              0
+            </span>
+             posts
+          </li>
+          <li>
+            <button
+              className="btn profile-info-follow"
+              onClick={[Function]}
+            >
+              0 followers
+            </button>
+             
+          </li>
+          <li>
+            <button
+              className="btn profile-info-follow"
+              onClick={[Function]}
+            >
+              0 following
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="profile-bio"
+      >
+        <div>
+          <p
+            className="bio"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
