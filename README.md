@@ -1,7 +1,7 @@
-# Photo&amp;Video-sharing Social Network APP -  HW5
+# Photo&amp;Video-sharing Social Network APP
 
 # Deployment
-The app is deployed to `https://photocamp.herokuapp.com/`
+The app is deployed to `https://photocamp.herokuapp.com/` (stopped for now)
 
 # Instructions for running it locally
 
